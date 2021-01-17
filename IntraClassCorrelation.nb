@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    273293,       5656]
+NotebookDataLength[    273343,       5658]
 NotebookOptionsPosition[     72041,       1785]
-NotebookOutlinePosition[    263598,       5438]
-CellTagsIndexPosition[    262647,       5407]
+NotebookOutlinePosition[    263648,       5440]
+CellTagsIndexPosition[    262697,       5409]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2424,8 +2424,8 @@ DockedCells->{
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2468,8 +2468,8 @@ submission id is 3256.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2905,8 +2905,9 @@ d1b4YTnZwBUjVFMnwofdVz+UCSYz98xUtDR5IqmWwRZNhzbvJ/2/bg4g=="},
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2950,8 +2951,9 @@ submission id is 3256.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -5241,10 +5243,10 @@ CellTagsIndex->{
   Cell[6674, 182, 4271, 75, 27, "UsageDescription",ExpressionUUID->"6da9857a-9936-4a47-a74f-2b626088550b",
    CellTags->"TabNext",
    CellID->584004037],
-  Cell[12368, 297, 778, 13, 57, "Notes",ExpressionUUID->"3a14a5d2-aea4-4665-85fc-ecbf5b159a9e",
+  Cell[12368, 297, 778, 13, 36, "Notes",ExpressionUUID->"3a14a5d2-aea4-4665-85fc-ecbf5b159a9e",
    CellTags->"TabNext",
    CellID->521904482],
-  Cell[14657, 361, 788, 13, 57, "Notes",ExpressionUUID->"7d5519c9-cd06-49e0-9292-8dea466900ae",
+  Cell[14657, 361, 788, 13, 36, "Notes",ExpressionUUID->"7d5519c9-cd06-49e0-9292-8dea466900ae",
    CellTags->"TabNext",
    CellID->1002010362],
   Cell[45239, 1076, 594, 9, 35, "Text",ExpressionUUID->"27d1b018-346b-4c21-874d-b27e67fb9ae6",
@@ -5406,33 +5408,33 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Name", 252821, 5215},
- {"TemplateCell", 253016, 5219},
- {"Title", 253377, 5226},
- {"TabNext", 253567, 5230},
- {"Description", 255662, 5273},
- {"Definition", 255853, 5277},
- {"Function", 256051, 5281},
- {"TemplateCellGroup", 256258, 5285},
- {"Documentation", 258814, 5328},
- {"Usage", 258976, 5332},
- {"Details & Options", 259169, 5336},
- {"Notes", 259372, 5340},
- {"Examples", 259578, 5344},
- {"Source & Additional Information", 259788, 5348},
- {"Contributed By", 259979, 5352},
- {"ContributorInformation", 260214, 5356},
- {"Keywords", 260435, 5360},
- {"Categories", 260626, 5364},
- {"CategoriesCell", 260821, 5368},
- {"Related Symbols", 260999, 5372},
- {"Related Resource Objects", 261211, 5376},
- {"Source/Reference Citation", 261433, 5380},
- {"Links", 261636, 5384},
- {"Tests", 261819, 5388},
- {"VerificationTests", 262035, 5392},
- {"Author Notes", 262246, 5396},
- {"Submission Notes", 262445, 5400}
+ {"Name", 252871, 5217},
+ {"TemplateCell", 253066, 5221},
+ {"Title", 253427, 5228},
+ {"TabNext", 253617, 5232},
+ {"Description", 255712, 5275},
+ {"Definition", 255903, 5279},
+ {"Function", 256101, 5283},
+ {"TemplateCellGroup", 256308, 5287},
+ {"Documentation", 258864, 5330},
+ {"Usage", 259026, 5334},
+ {"Details & Options", 259219, 5338},
+ {"Notes", 259422, 5342},
+ {"Examples", 259628, 5346},
+ {"Source & Additional Information", 259838, 5350},
+ {"Contributed By", 260029, 5354},
+ {"ContributorInformation", 260264, 5358},
+ {"Keywords", 260485, 5362},
+ {"Categories", 260676, 5366},
+ {"CategoriesCell", 260871, 5370},
+ {"Related Symbols", 261049, 5374},
+ {"Related Resource Objects", 261261, 5378},
+ {"Source/Reference Citation", 261483, 5382},
+ {"Links", 261686, 5386},
+ {"Tests", 261869, 5390},
+ {"VerificationTests", 262085, 5394},
+ {"Author Notes", 262296, 5398},
+ {"Submission Notes", 262495, 5402}
  }
 *)
 (*NotebookFileOutline
@@ -5448,7 +5450,7 @@ Cell[CellGroupData[{
 Cell[2066, 52, 1108, 27, 68, "Section",ExpressionUUID->"83129772-5b3f-4029-a859-f89acf148ac4",
  CellTags->{"Definition", "Function", "TemplateCellGroup"},
  CellID->858465241],
-Cell[3177, 81, 1011, 26, 52, "Input",ExpressionUUID->"7a339eb7-c510-4bff-a35f-af08ed6cce3c",
+Cell[3177, 81, 1011, 26, 30, "Input",ExpressionUUID->"7a339eb7-c510-4bff-a35f-af08ed6cce3c",
  CellID->304931571]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -5473,14 +5475,14 @@ Cell[10994, 263, 1349, 30, 54, "Subsection",ExpressionUUID->"4cfbc425-ad01-4d0f-
  CellTags->{"Details & Options", "Notes", "TemplateCellGroup"},
  CellID->85988701],
 Cell[CellGroupData[{
-Cell[12368, 297, 778, 13, 57, "Notes",ExpressionUUID->"3a14a5d2-aea4-4665-85fc-ecbf5b159a9e",
+Cell[12368, 297, 778, 13, 36, "Notes",ExpressionUUID->"3a14a5d2-aea4-4665-85fc-ecbf5b159a9e",
  CellTags->"TabNext",
  CellID->521904482],
-Cell[13149, 312, 896, 26, 57, "Notes",ExpressionUUID->"986c1282-e15d-47f6-b7bb-62a4ee08e163",
+Cell[13149, 312, 896, 26, 36, "Notes",ExpressionUUID->"986c1282-e15d-47f6-b7bb-62a4ee08e163",
  CellID->109587644],
 Cell[14048, 340, 606, 19, 45, "Notes",ExpressionUUID->"c06c8186-4e1d-4594-b7bd-f27dc88ccb97",
  CellID->257409232],
-Cell[14657, 361, 788, 13, 57, "Notes",ExpressionUUID->"7d5519c9-cd06-49e0-9292-8dea466900ae",
+Cell[14657, 361, 788, 13, 36, "Notes",ExpressionUUID->"7d5519c9-cd06-49e0-9292-8dea466900ae",
  CellTags->"TabNext",
  CellID->1002010362]
 }, Open  ]]
