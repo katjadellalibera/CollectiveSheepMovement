@@ -4,7 +4,9 @@ df.ET <- read.csv("/Users/katjad/Documents/Github/SheepCapstone/indexAndET.csv",
 
 # install necessary packages
 install.packages("rptR")
+install.packages("lmerTest")
 library(rptR)
+library(lmerTest)
 
 # test repeatability for FID
 rpt(FID ~ (1 | index), grname = "index", data = df.FID, datatype = 'Gaussian',
@@ -15,5 +17,10 @@ rpt(buckets ~ (1 | index), grname = "index", data = df.ET, datatype = 'Gaussian'
     nboot = 1000, npermut = 0)
 
 
-citation("rptR")
 
+# import dataset for LM
+df.full <- read.csv("/Users/katjad/Documents/Github/SheepCapstone/LinearModelData.csv", col.names = c("index", "ET","FID","TimeAlone","GroupSize"))
+
+# linear model for time alone
+talm <- lmer(TimeAlone ~ FID + ET + (1|index), data = df.full)
+summary(talm)
