@@ -1,8 +1,6 @@
 # install necessary packages
 install.packages("rptR")
-install.packages("lmerTest")
 library(rptR)
-library(lmerTest)
 
 # import FID and ET data
 df.FID <- read.csv("/Users/katjad/Documents/Github/SheepCapstone/indexAndFID.csv", col.names = c("index", "FID"))
@@ -29,7 +27,7 @@ rpt(meanGroupSize ~ (1 | index), grname = "index", data = df.GroupSize, datatype
     nboot = 1000, npermut = 0)
 
 # test repeatability for centrality
-rpt(c ~ (1 | index), grname = "index", data = df.GroupSize, datatype = 'Gaussian',
+rpt(centrality ~ (1 | index), grname = "index", data = df.Centrality, datatype = 'Gaussian',
     nboot = 1000, npermut = 0)
 
 # import dataset for LM
